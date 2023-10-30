@@ -55,3 +55,22 @@ if (preparedForLiftOff) {
 } else {
     console.log("ABORT! ABORT! ABORT!")
 }
+
+let jsCreator = "Brendan Eich";
+
+console.log(jsCreator[-1]);
+console.log(jsCreator[42]);
+
+let phrase = "JavaScript rocks!";
+console.log(phrase[phrase.length - 8]);
+
+word = 'JavaScript';
+console.log(word.slice(1,6))
+
+let pluralNoun = "trees";
+let name = "Drew";
+let verb = "run";
+let adjective = "Fast";
+let color = "Blue";
+
+console.log(`JavaScript provides a ${color} collection of tools — including ${adjective} syntax and ${pluralNoun} that allows ${name}to ${verb} with strings.`);

@@ -36,9 +36,19 @@ console.log(nameOfSpaceShuttle," will take",daysToMars, " days to reach Mars.")
 let milesToTheMoon 
 milesToTheMoon = (distanceToMoon * milesPerKilometer)
 let hoursToTheMoon 
-hoursToTheMoon = (milesToTheMoon/shuttleSpeed)
+hoursToTheMoon = (milesToTheMoon / shuttleSpeed)
 let daysToTheMoon
 daysToTheMoon = (hoursToTheMoon/24)
 
 // Print the results of the trip to the moon below
 console.log(nameOfSpaceShuttle," will take",daysToTheMoon, " days to reach the moons.")
+
+
+
+let num = 7;
+
+if (num % 2 === 0) {
+    if (num % 2 === 1) {
+        console.log("odd");
+    }
+}
